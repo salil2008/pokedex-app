@@ -1,0 +1,19 @@
+.pokedex {
+    .pokedex-logo {
+        text-align: center;
+        padding-top: 60px;
+    }
+    .pokedex-wrapper {
+        padding-top: 60px;
+        padding-left: 150px;
+        padding-right: 150px;
+        .pokedex-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            .bottom-border {
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+}
